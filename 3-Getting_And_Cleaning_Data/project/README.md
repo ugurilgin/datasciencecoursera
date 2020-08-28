@@ -14,8 +14,8 @@ Goal | Item | Link to Item
 --- | --- | ---
 Analysis R Script |  run_analysis.R |  [R Script Link](https://github.com/ugurilgin/datasciencecoursera/tree/master/3-Getting_And_Cleaning_Data/project//run_analysis.R "run_analysis.R")
 Tidy Data Set |  Clean Data Set |  [Data Set Link](https://github.com/ugurilgin/datasciencecoursera/tree/master/3-Getting_And_Cleaning_Data/project/data/tidyData.txt "tidyData.txt")
-Cookbook | CodeBook.md |  [Repo Link](https://github.com/ugurilgin/datasciencecoursera/tree/master/3-Getting_And_Cleaning_Data/project/CodeBook.md "CodeBook.md")
-README | ReadingItNow |  [Repo Link](https://github.com/ugurilgin/datasciencecoursera/tree/master/3-Getting_And_Cleaning_Data/project/README.md "README.md")
+Cookbook | CodeBook.md |  [CookBook Link](https://github.com/ugurilgin/datasciencecoursera/tree/master/3-Getting_And_Cleaning_Data/project/CodeBook.md "CodeBook.md")
+README | ReadingItNow |  [Welcome](https://github.com/ugurilgin/datasciencecoursera/tree/master/3-Getting_And_Cleaning_Data/project/README.md "README.md")
 
 
 
