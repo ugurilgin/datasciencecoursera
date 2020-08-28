@@ -66,7 +66,8 @@ plot(x = powerDT[, dateTime]
 
 dev.off()
 ```
-<https://github.com/ugurilgin/datasciencecoursera/blob/master/4_Exploratory_Data_Analysis/project1/plot2.png"  >
+<img src="https://github.com/ugurilgin/datasciencecoursera/blob/master/4_Exploratory_Data_Analysis/project1/plot2.png"  >
+
 * Question 3 ([plot3.R](https://github.com/ugurilgin/datasciencecoursera/tree/master/4_Exploratory_Data_Analysis/project1/plot3.R))
 ```R
 library("data.table")
@@ -100,7 +101,8 @@ legend("topright"
 
 dev.off()
 ```
-<https://github.com/ugurilgin/datasciencecoursera/blob/master/4_Exploratory_Data_Analysis/project1/plot3.png"  >
+<img src="https://github.com/ugurilgin/datasciencecoursera/blob/master/4_Exploratory_Data_Analysis/project1/plot3.png"  >
+
 * Question 4 ([plot4.R](https://github.com/ugurilgin/datasciencecoursera/tree/master/4_Exploratory_Data_Analysis/project1/plot4.R))
 ```R
 library("data.table")
