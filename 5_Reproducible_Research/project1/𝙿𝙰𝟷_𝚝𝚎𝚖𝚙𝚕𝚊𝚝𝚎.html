@@ -9,7 +9,7 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="Michael Galarnyk" />
+<meta name="author" content="" />
 
 
 <title>Reproducible Research Project 1</title>
@@ -117,13 +117,10 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Reproducible Research Project 1</h1>
-<h4 class="author"><em>Michael Galarnyk</em></h4>
-<h4 class="date"><em>3/26/2017</em></h4>
 
 </div>
 
 
-<p>github repo for rest of specialization: <a href="https://github.com/mGalarnyk/datasciencecoursera">Data Science Coursera</a></p>
 <div id="introduction" class="section level2">
 <h2>Introduction</h2>
 <p>It is now possible to collect a large amount of data about personal movement using activity monitoring devices such as a Fitbit, Nike Fuelband, or Jawbone Up. These type of devices are part of the “quantified self” movement – a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. But these data remain under-utilized both because the raw data are hard to obtain and there is a lack of statistical methods and software for processing and interpreting the data.</p>
@@ -276,9 +273,7 @@ head(activityDT, 10)</code></pre>
 ##  8:    NA 2012-10-01       35      Monday            weekday
 ##  9:    NA 2012-10-01       40      Monday            weekday
 ## 10:    NA 2012-10-01       45      Monday            weekday</code></pre>
-<ol start="2" style="list-style-type: decimal">
-<li>Make a panel plot containing a time series plot (i.e. 𝚝𝚢𝚙𝚎 = “𝚕”) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). See the README file in the GitHub repository to see an example of what this plot should look like using simulated data.</li>
-</ol>
+
 <pre class="r"><code>activityDT[is.na(steps), &quot;steps&quot;] &lt;- activityDT[, c(lapply(.SD, median, na.rm = TRUE)), .SDcols = c(&quot;steps&quot;)]
 IntervalDT &lt;- activityDT[, c(lapply(.SD, mean, na.rm = TRUE)), .SDcols = c(&quot;steps&quot;), by = .(interval, `weekday or weekend`)] 
 
