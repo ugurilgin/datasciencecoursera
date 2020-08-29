@@ -19,7 +19,7 @@ The variables included in this dataset are:
 
 steps: Number of steps taking in a 5-minute interval (missing values are coded as 𝙽𝙰) </br> date: The date on which the measurement was taken in YYYY-MM-DD format </br> interval: Identifier for the 5-minute interval in which measurement was taken </br> The dataset is stored in a comma-separated-value (CSV) file and there are a total of 17,568 observations in this dataset.
 
-Loading and preprocessing the data
+Loading and preprocessing the data.
 ----------------------------------
 
 Unzip data to obtain a csv file.
